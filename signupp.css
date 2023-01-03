@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(227, 241, 226);
+    isplay: flex;
+}
+.form-signin{
+    border: 2px solid rgb(222, 240, 201);
+}
+input{
+    height: 40px;
+    margin: 6px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button a{
+text-decoration: none;
+color: ;
+}
