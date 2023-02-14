@@ -1,0 +1,161 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    color: #565c58;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    margin:  0 auto;
+    max-width: 800px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3f7ec;
+    padding: 30px;
+    margin: -15px;
+    border-bottom: 1px solid grey;
+   
+}
+.hero img{
+    width: 200px;
+    
+}
+.first--content{
+    display: flex;
+    margin-top: 50px;
+}
+.first--content--left{
+    margin-right: 25px;
+    box-shadow: #565c58;
+}
+.form--full{
+    border: 1px solid rgb(177, 168, 168);
+    padding: 30px;
+}
+.form--full input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid rgb(177, 168, 168);
+    border-radius: 3px;
+}
+.form--full input:hover{
+    border-color: rgb(154, 154, 250);
+}
+.address{
+    border: 1px solid  rgb(177, 168, 168);
+    padding: 15px;
+    background-color: #d4dfd9;
+   
+}
+.first--content--right{
+    padding: 13px 43px;
+    max-width: 450px;
+}
+.first--content--right h1 , span, h5, h3, h1{ 
+    font-weight: bold;
+}
+.first--content--right>.second>p>img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    float: right;
+    margin-top: -25px;
+    margin-right: 8px;
+
+}
+.first--content--right.first, .second ,.third{
+    padding: 20px 0px;
+}
+.second--content{
+    display: flex;
+
+}
+.second--content-left{
+    border: 2px solid rgb(180, 163, 163);
+    margin-right: 25px;
+    padding: 30px;
+}
+.second--content-left>form>input{
+    width: 250px;
+    height: 30px;
+    border: 2px solid rgb(177, 168, 168);
+    border-radius: 3px;
+}
+.second--content-left>form>input:hover{
+    border-color: rgb(154, 154, 250);
+}
+.second--content-right{
+    padding: 13px 43px;
+    max-width: 450px;
+}
+.last{
+    margin-top: 30px;
+}
+.last>button{
+    margin-top: 15px;
+    background-color: rgb(133, 247, 133);
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    font-size: 23px;
+}
+.last>button>a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    background-color: rgb(32, 27, 27);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px -10px -10px;
+    font-size: 12px;
+}
+footer>p {
+    margin-right: 30px;
+}
+@media screen and (max-width: 768px){
+    *{
+        justify-content: center;
+        align-items: center;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.first--content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.first--content--left{
+    padding: 30px;
+}
+.second--content{
+    display: flex;
+    flex-direction: column;
+}
+.Billing{
+    margin-left: 13px;
+}
+.second--content-left{
+    margin: 10px;
+}
+.last{
+    padding: 20px;
+}
+footer{
+    padding: 10px;
+}
+footer>p {
+    margin-right: 5px;
+}
+}

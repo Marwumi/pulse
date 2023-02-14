@@ -1,8 +1,9 @@
-const hamburgerButton = document.getElementById('hamburger')
-const navList = document.getElementById('nav-list')
+function myFunction() {
+var x = document.getElementById("nav-list");
+if (x.style.display === "block") {
+  x.style.display = "none";
+} else {
+  x.style.display = "block";
+}
+}
 
-  function toggleButton(){
-      navList.classList.toggle('show')
-  }
-
-  hamburgerButton.addEventListener('click', toggleButton)

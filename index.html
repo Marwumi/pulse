@@ -9,31 +9,23 @@
   </head>
 
   <body>
-    <header>
-      <img src="assets\pulse-logo.svg" alt="pulse" class="logo" />
+    <header class="topnav">
+      <a href="#" 
+        ><img src="assets\pulse-logo.svg" alt="pulse" class="logo"
+      /></a>
       <nav>
         <ul class="nav-main" id="nav-list">
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Customer Stories</a></li>
-          <li><a href="#" style="color: black">Pricing</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#" class="signup">Sign Up</a></li>
+          <li><a href="Features.html">Features</a></li>
+          <li><a href="CustStories.html">Customer Stories</a></li>
+          <li><a href="#" >Pricing</a></li>
+          <li><a href="Sign.html" class="signup">Sign Up</a></li>
         </ul>
-        <button class="hamburger" id="hamburger">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="#ffffff"
-            width="50"
-            height="50"
-            viewBox="0 0 448 512"
-          >
-            <path
-              d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"
-            />
-          </svg>
-        </button>
       </nav>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img src="assets/hamburger.png" width="40px" height="40px" style="margin-left: -15px; padding: 5px;"/>
+      </a>
     </header>
+
     <div class="main">
       <div class="hero">
         <div class="heading">
@@ -103,7 +95,7 @@
             </div>
             <div class="col three">
               <p class="first">
-                Complex businss with multiple financial accounts, currencies, or
+                Complex business with multiple financial accounts, currencies, or
                 auditing needs?
               </p>
               <div class="padd">
@@ -130,7 +122,6 @@
                 </ul>
               </div>
             </div>
-            <!--  -->
           </div>
         </section>
         <div class="hero-two">
@@ -214,13 +205,13 @@
           <div class="right">
             <ul class="list">
               <li><a href="#">Product</a></li>
-              <li><a href="#">Features</a></li>
+              <li><a href="Features.html">Features</a></li>
               <li><a href="#">Pricing</a></li>
-              <li><a href="#">Sign Up</a></li>
+              <li><a href="Sign.html">Sign Up</a></li>
             </ul>
             <ul class="list">
               <li><a href="#">Company</a></li>
-              <li><a href="#">Customer Stories</a></li>
+              <li><a href="CustStories.html">Customer Stories</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
@@ -253,3 +244,4 @@
     <script src="script.js"></script>
   </body>
 </html>
+
