@@ -8,6 +8,7 @@ html {
 }
 
 body {
+    max-width: 1440px;
     margin: 0 auto;
     background-color: #eafaf1;
 }
@@ -388,10 +389,10 @@ footer {
         font-size: 17px;
         display: block;
     }
-
+/* 
     .icon {
         display: show;
-    }
+    } */
 
     .topnav a.icon {
         display: block;

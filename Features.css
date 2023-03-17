@@ -96,7 +96,7 @@ gap: 10px;
 .free {
     background-color: green;
     width: 100%;
-    height: 20vh;
+    height: fit-content;
 }
 
 .free h1 {
